@@ -13,7 +13,6 @@
             var view = popup.Content;
             // view.SetBinding(BindingContextProperty, new Binding { Source = popup, Path = BindingContextProperty.PropertyName });
             cvContent.Content = view;
-            // cvContent.SetBinding(BindingContextProperty, new Binding { Source = view, Path = BindingContextProperty.PropertyName });
             cvContent.SetBinding(BindingContextProperty, new Binding { Source = popup, Path = BindingContextProperty.PropertyName });
         }
     }
